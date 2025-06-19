@@ -1,0 +1,81 @@
+#root {
+  max-width: 1500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+}
+
+body {
+  background-color: white !important;
+}
+
+.card {
+  font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  text-align: center;
+  padding: 5px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.reaction-buttons {
+  margin: 15px 0;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.like-button, .dislike-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.like-button {
+  background-color: #1877F2;
+  box-shadow: 0 2px 4px rgba(24, 119, 242, 0.2);
+}
+
+.dislike-button {
+  background-color: #1877F2;
+  box-shadow: 0 2px 4px rgba(11, 94, 215, 0.2);
+}
+
+.like-button:hover {
+  background-color: #166FE5;
+  transform: translateY(-1px);
+}
+
+.dislike-button:hover {
+  background-color: #0A56C0;
+  transform: translateY(-1px);
+}
+
+.like-button:active {
+  background-color: #1460D1;
+  transform: translateY(0);
+}
+
+.dislike-button:active {
+  background-color: #094DB0;
+  transform: translateY(0);
+}
+
+.like-count, .dislike-count {
+  font-weight: normal;
+  margin-left: 3px;
+}
+
+.total-ratings {
+  color: #777;
+  font-size: 0.9em;
+}
